@@ -4,7 +4,7 @@
 
 import socket
 
-target_host = "127.0.0.1"
+target_host = socket.gethostname() #"127.0.0.1"
 target_port = 8000
 
 # create a socket object
