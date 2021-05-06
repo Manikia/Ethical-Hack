@@ -26,6 +26,24 @@ def handle_client (client_socket):
 
         client_socket.close()
 
+#these below are from other file
+        #target_host = socket.gethostname() #"127.0.0.1"
+        #target_port = 9999
+
+        # create a socket object
+        #client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+        #client.bind ((target_host, target_port))
+
+        # send some data
+        #client.sendto("someone entered local host".encode(),(target_host, target_port))
+
+        # recieve some data
+        #data, addr = client.recvfrom(4096)
+
+        #print (data)
+#these above is from other file
+
 while True:
     client, addr = server.accept()
 

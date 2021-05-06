@@ -5,7 +5,7 @@
 import socket
 
 target_host = socket.gethostname() #"127.0.0.1"
-target_port = 8000
+target_port = 9999
 
 # create a socket object
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
